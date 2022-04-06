@@ -1,0 +1,11 @@
+# Instalando Globalmente
+  npm install -g @angular/cli
+
+# Inicializando um projeto
+ng new [nome] --style=scss --routing
+
+# Criar componente
+ng g c [nome]
+
+# Criar server
+ng g s [nome]

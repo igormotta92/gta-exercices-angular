@@ -1,0 +1,33 @@
+div {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  padding: 8px 16px;
+  margin: 16px;
+  color: darkblue;
+  background-color: aliceblue;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  background-color: aliceblue;
+  margin: 16px;
+}
+
+a:hover {
+  cursor: pointer;
+  background-color: #d7ecff;
+}
+
+a:visited {
+  color: darkblue
+}

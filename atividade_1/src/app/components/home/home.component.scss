@@ -1,0 +1,12 @@
+.plans__container {
+  display: flex;
+  justify-content: center;
+
+  .plans__card {
+    height: 500px;
+    width: 350px;
+    text-align: center;
+    border: 1px solid gainsboro;
+    margin: 16px;
+  }
+}
