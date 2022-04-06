@@ -12,3 +12,6 @@ ng g s [nome]
 
 ### Angular Material ###
 https://material.angular.io/
+
+Install Angular Material
+$ ng add @angular/material
