@@ -1,33 +1,60 @@
-div {
-  background-color: aliceblue;
-  display: flex;
-  justify-content: center;
+// div {
+//   background-color: aliceblue;
+//   display: flex;
+//   justify-content: center;
+// }
+
+// a {
+//   text-decoration: none;
+//   padding: 8px 16px;
+//   margin: 16px;
+//   color: darkblue;
+//   background-color: aliceblue;
+// }
+
+// ul {
+//   display: flex;
+//   justify-content: center;
+// }
+
+// li {
+//   list-style: none;
+//   background-color: aliceblue;
+//   margin: 16px;
+// }
+
+// a:hover {
+//   cursor: pointer;
+//   background-color: #d7ecff;
+// }
+
+// a:visited {
+//   color: darkblue
+// }
+
+.nav__header {
+  background-color: #2c2f32;
 }
 
-a {
+.nav__header a {
   text-decoration: none;
-  padding: 8px 16px;
-  margin: 16px;
-  color: darkblue;
-  background-color: aliceblue;
+  padding: 8px 32px;
+  color: #fff
 }
 
-ul {
+.nav__header ul {
   display: flex;
+  align-items: center;
   justify-content: center;
+  height: 60px;
 }
 
-li {
+.nav__header li {
   list-style: none;
-  background-color: aliceblue;
-  margin: 16px;
+  margin: 0 16px;
 }
 
-a:hover {
+.nav__header a:hover {
   cursor: pointer;
-  background-color: #d7ecff;
-}
-
-a:visited {
-  color: darkblue
+  background-color: #383c40;
 }

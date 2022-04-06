@@ -1,3 +1,12 @@
-<div>
+<!-- <div>
   <a *ngFor="let item of menuItems" href="{{ item.url }}">{{ item.name }}</a>
-</div>
+</div> -->
+<header class="nav__header">
+  <nav>
+    <ul>
+      <li>
+        <a *ngFor="let item of menuItems" href="{{ item.url }}">{{ item.name }}</a>
+      </li>
+    </ul>
+  </nav>
+</header>

@@ -1,6 +1,17 @@
-<div class="plans__container">
+<!-- <div class="plans__container">
   <div class="plans__card" *ngFor="let plan of plans">
     <h2 id="plan"> Plano: {{ plan.pacote }}</h2>
     <p id="price"> Price: {{ plan.price }}</p>
   </div>
-</div>
+</div> -->
+
+<ul class="plans__container">
+  <li class="plans__item" *ngFor="let item of plans">
+    <h2>{{item.pacote}}</h2>
+    <div class="plans__price">
+      <p>{{item.price}}</p>
+      <small>Per Month</small>
+    </div>
+    <button class="plans__btn">Select Plan</button>
+  </li>
+</ul>
